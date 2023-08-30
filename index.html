@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="lib/style.css">
+    <script src="lib/script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left_container">
+            <div class="logo_container">
+                <img src="/lib/images/logo.png" alt="Odin Logo" id="logo">
+                <p>ODIN</p>
+            </div>
+            <p id="img_credits">Photo by <a href="https://unsplash.com/@matthewwmcb" class="credit_link">Matthew McBrayer</a> on <a href="https://unsplash.com/" class="credit_link">Unsplash</a></p>
+        </div>
+        <div class="right_container">
+            <header>
+                <div class="header_text">
+                    <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
+                    <p>You Know you want to.</p>
+                </div>                
+            </header>
+            <div class="form_container">
+                <form>
+                    <p id="form_title">Let's do this!</p>
+                    <div class="form_line">
+                        <div class="form_labels">
+                            <label for="first_name">FIRST NAME</label>
+                            <input type="text" name="first_name"  id="first_name">
+                        </div>
+                        <div class="form_labels">
+                            <label for="last_name">LAST NAME</label>
+                            <input type="text" name="last_name" id="last_name">
+                        </div>
+                    </div>
+                    <div class="form_line">
+                        <div class="form_labels">
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div class="form_labels">
+                            <label for="phone_number">PHONE NUMBER</label>
+                            <input type="tel" name="phone_number" id="phone_number" pattern="[0-9]{5}-[0-9]{4}" >
+                        </div>
+                    </div>
+                    <div class="form_line">
+                        <div class="form_labels">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" name="password" id="password">
+                        </div>
+                        <div class="form_labels">
+                            <label for="confirm_password">CONFIRM PASSWORD</label>
+                            <input type="password" name="confirm_password" id="confirm_password">
+                        </div>
+                    </div>
+            </div>
+            </form>
+            <footer>
+                <div class="footer_content">
+                    <button id="btn">Create Account</button>
+                    <p id="footer_text">Already have an account? <a href="#" id="footer_link">Log in</a></p>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
