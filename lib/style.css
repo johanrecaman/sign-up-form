@@ -132,3 +132,10 @@ footer{
 #footer_link:hover{
     color: #68b4ea;
 }
+
+.error_highlight:focus{
+    border-color: red;
+}
+#error_text{
+    color: red;
+}
